@@ -47,7 +47,7 @@ for (const btn of callingButtons) {
     // started call history section functionality
     const cartHistory = document.createElement("div");
     cartHistory.classList.add("call-list");
-    cartHistory.innerHTML = `<div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4">
+    cartHistory.innerHTML = `<div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4 mx-auto">
         <div>
           <h6 class="inter-font font-semibold text-sm text-[#111111]">${cardTitle}</h6>
           <p class="hind-madurai-font text-lg text-[#5C5C5C]">${serviceNumber}</p>
